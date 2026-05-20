@@ -1,0 +1,38 @@
+OLS - Regressao por Minimos Quadrados Ordinarios
+
+Target: valorTotalVencedor
+Transformacao da target no ajuste: raw
+Variaveis com vazamento incluidas: False
+
+Amostragem:
+- Populacao: 110675
+- Confianca: 95%
+- Margem de erro: 5%
+- Amostra indicada com correcao finita: 383
+
+Metricas OLS no treino:
+- R2: 0.583588
+- R2 ajustado: 0.583541
+- F-statistic: 12407.075965
+- p-value do F: 1.110223e-16
+- Observacoes de treino: 88540
+
+Metricas em reais, apos desfazer transformacao quando necessario:
+- Treino MAE: 53517.61
+- Treino RMSE: 440158.82
+- Treino R2: 0.585430
+- Teste MAE: 53040.31
+- Teste RMSE: 365575.31
+- Teste R2: 0.457953
+
+Features usadas:
+- agg__contratos__valor__min: correlacao=0.750431, possivel_vazamento=False
+- agg__contratos__valor__mean: correlacao=0.745278, possivel_vazamento=False
+- agg__contratos__valor__max: correlacao=0.713665, possivel_vazamento=False
+- agg__contratos__valor__sum: correlacao=0.640750, possivel_vazamento=False
+- proc__valorEstimado: correlacao=0.145017, possivel_vazamento=False
+- agg__participantes__formaParticipacao__nunique: correlacao=0.136821, possivel_vazamento=False
+- proc__modalidade_Concorrência: correlacao=0.126179, possivel_vazamento=False
+- proc__formaJulgamento_MENOR PREÇO MENSAL: correlacao=0.119778, possivel_vazamento=False
+- proc__enderecoEntrega_Rua Domênico Sonego: correlacao=0.101712, possivel_vazamento=False
+- proc__enderecoCertame_Rua Domênico Sonego: correlacao=0.101712, possivel_vazamento=False

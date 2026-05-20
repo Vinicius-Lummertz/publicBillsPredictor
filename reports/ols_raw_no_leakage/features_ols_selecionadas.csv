@@ -1,0 +1,5 @@
+﻿feature,correlacao_raw,correlacao_log,tipo,coluna_origem,correlacao_usada,abs_correlacao_usada,possivel_vazamento_target
+agg__contratos__valor__min,0.750431289419867,0.13970947866287872,numerica,agg__contratos__valor__min,0.750431289419867,0.750431289419867,False
+agg__contratos__valor__mean,0.7452782421993683,0.1521262090796326,numerica,agg__contratos__valor__mean,0.7452782421993683,0.7452782421993683,False
+agg__contratos__valor__max,0.7136650919009441,0.17124998063837713,numerica,agg__contratos__valor__max,0.7136650919009441,0.7136650919009441,False
+agg__contratos__valor__sum,0.6407495802763228,0.1864439480145088,numerica,agg__contratos__valor__sum,0.6407495802763228,0.6407495802763228,False

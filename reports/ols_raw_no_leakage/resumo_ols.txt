@@ -1,0 +1,32 @@
+OLS - Regressao por Minimos Quadrados Ordinarios
+
+Target: valorTotalVencedor
+Transformacao da target no ajuste: raw
+Variaveis com vazamento incluidas: False
+
+Amostragem:
+- Populacao: 110675
+- Confianca: 95%
+- Margem de erro: 5%
+- Amostra indicada com correcao finita: 383
+
+Metricas OLS no treino:
+- R2: 0.000329
+- R2 ajustado: -0.012956
+- F-statistic: 0.024764
+- p-value do F: 9.988059e-01
+- Observacoes de treino: 306
+
+Metricas em reais, apos desfazer transformacao quando necessario:
+- Treino MAE: 26388.28
+- Treino RMSE: 142534.75
+- Treino R2: 0.000329
+- Teste MAE: 16876.24
+- Teste RMSE: 23241.03
+- Teste R2: -0.229571
+
+Features usadas:
+- agg__contratos__valor__min: correlacao=0.750431, possivel_vazamento=False
+- agg__contratos__valor__mean: correlacao=0.745278, possivel_vazamento=False
+- agg__contratos__valor__max: correlacao=0.713665, possivel_vazamento=False
+- agg__contratos__valor__sum: correlacao=0.640750, possivel_vazamento=False

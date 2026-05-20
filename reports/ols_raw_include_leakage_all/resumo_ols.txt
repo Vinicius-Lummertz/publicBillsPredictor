@@ -1,0 +1,48 @@
+OLS - Regressao por Minimos Quadrados Ordinarios
+
+Target: valorTotalVencedor
+Transformacao da target no ajuste: raw
+Variaveis com vazamento incluidas: True
+
+Amostragem:
+- Populacao: 110675
+- Confianca: 95%
+- Margem de erro: 5%
+- Amostra indicada com correcao finita: 383
+
+Metricas OLS no treino:
+- R2: 0.935687
+- R2 ajustado: 0.935672
+- F-statistic: 64392.655897
+- p-value do F: 1.110223e-16
+- Observacoes de treino: 88540
+
+Metricas em reais, apos desfazer transformacao quando necessario:
+- Treino MAE: 19559.16
+- Treino RMSE: 137355.52
+- Treino R2: 0.959629
+- Teste MAE: 21611.36
+- Teste RMSE: 167076.91
+- Teste R2: 0.886782
+
+Features usadas:
+- item__valorTotalReferencia: correlacao=0.823026, possivel_vazamento=True
+- agg__itensVencedores__valorTotalReferencia__mean: correlacao=0.794586, possivel_vazamento=True
+- agg__itensVencedores__valorTotalReferencia__min: correlacao=0.761492, possivel_vazamento=True
+- agg__contratos__valor__min: correlacao=0.750431, possivel_vazamento=False
+- agg__contratos__valor__mean: correlacao=0.745278, possivel_vazamento=False
+- agg__contratos__valor__max: correlacao=0.713665, possivel_vazamento=False
+- agg__itensVencedores__valorTotalReferencia__max: correlacao=0.687437, possivel_vazamento=True
+- agg__contratos__valor__sum: correlacao=0.640750, possivel_vazamento=False
+- agg__participantes__itensProposta__valorTotal__max: correlacao=0.549960, possivel_vazamento=True
+- item__valorUnitarioVencedor: correlacao=0.537835, possivel_vazamento=True
+- agg__participantes__itensProposta__valorTotal__mean: correlacao=0.534434, possivel_vazamento=True
+- agg__itensVencedores__valorUnitarioVencedor__mean: correlacao=0.533156, possivel_vazamento=True
+- agg__itensVencedores__valorUnitarioVencedor__min: correlacao=0.530838, possivel_vazamento=True
+- item__valorUnitarioReferencia: correlacao=0.514142, possivel_vazamento=True
+- agg__itensVencedores__valorUnitarioReferencia__mean: correlacao=0.512994, possivel_vazamento=True
+- agg__itensVencedores__valorUnitarioVencedor__max: correlacao=0.512623, possivel_vazamento=True
+- agg__itensVencedores__valorUnitarioReferencia__min: correlacao=0.511996, possivel_vazamento=True
+- agg__itensVencedores__valorUnitarioReferencia__max: correlacao=0.509790, possivel_vazamento=True
+- agg__participantes__itensProposta__valorUnitario__mean: correlacao=0.504681, possivel_vazamento=True
+- agg__participantes__itensProposta__valorUnitario__max: correlacao=0.504114, possivel_vazamento=True

@@ -1,0 +1,56 @@
+{
+  "target": "valorTotalVencedor",
+  "target_transform": "raw",
+  "include_leakage": false,
+  "sample_info": {
+    "population_size": 110675,
+    "confidence": 0.95,
+    "z": 1.96,
+    "margin_error": 0.05,
+    "population_proportion": 0.5,
+    "sample_size_infinite_population": 385,
+    "sample_size_finite_population": 383
+  },
+  "model_sample": "all",
+  "sample_used": 110675,
+  "train_rows": 88540,
+  "test_rows": 22135,
+  "ols_metrics_model_scale": {
+    "n_observacoes_treino": 88540,
+    "n_parametros": 11,
+    "rank_matriz": 9,
+    "graus_liberdade_modelo": 10,
+    "graus_liberdade_residuos": 88529,
+    "sse": 1.722991817106569e+16,
+    "mse_residuos": 194624565634.6021,
+    "r2": 0.583588428582334,
+    "r2_ajustado": 0.5835413918405412,
+    "f_statistic": 12407.07596527026,
+    "f_p_value": 1.1102230246251565e-16,
+    "condition_number": 1.8843837145444264e+21
+  },
+  "train_metrics_raw_scale": {
+    "treino_mae": 53517.614695025,
+    "treino_rmse": 440158.8152847332,
+    "treino_mape_pct": 47686.92843238507,
+    "treino_r2": 0.5854299725074196
+  },
+  "test_metrics_raw_scale": {
+    "teste_mae": 53040.307100951206,
+    "teste_rmse": 365575.3059021861,
+    "teste_mape_pct": 6838.96206004794,
+    "teste_r2": 0.45795286764411924
+  },
+  "selected_features": [
+    "agg__contratos__valor__min",
+    "agg__contratos__valor__mean",
+    "agg__contratos__valor__max",
+    "agg__contratos__valor__sum",
+    "proc__valorEstimado",
+    "agg__participantes__formaParticipacao__nunique",
+    "proc__modalidade_Concorrência",
+    "proc__formaJulgamento_MENOR PREÇO MENSAL",
+    "proc__enderecoEntrega_Rua Domênico Sonego",
+    "proc__enderecoCertame_Rua Domênico Sonego"
+  ]
+}

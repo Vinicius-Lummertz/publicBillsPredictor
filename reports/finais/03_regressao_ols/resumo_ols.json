@@ -1,0 +1,20 @@
+{
+  "target": "valorTotalVencedor",
+  "populacao": 110675,
+  "amostra_indicada": 383,
+  "amostra_usada": 110675,
+  "treino": 88540,
+  "teste": 22135,
+  "features": 20,
+  "features_com_possivel_vazamento": 16,
+  "r2_treino_ols": 0.9356867239276332,
+  "r2_ajustado_treino_ols": 0.9356721929735844,
+  "treino_mae": 19559.155113494377,
+  "treino_rmse": 137355.5234405079,
+  "treino_mape_pct": 6890.05387530678,
+  "treino_r2": 0.959628828814601,
+  "teste_mae": 21611.35593519654,
+  "teste_rmse": 167076.90708503162,
+  "teste_mape_pct": 7396.342524547079,
+  "teste_r2": 0.8867818116940768
+}

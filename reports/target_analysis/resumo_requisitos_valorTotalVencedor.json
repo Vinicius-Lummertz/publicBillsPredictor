@@ -1,0 +1,17 @@
+{
+  "target": "valorTotalVencedor",
+  "correlation_target": "raw",
+  "total_registros_modelagem": 110675,
+  "registros_target_nao_nulos": 110675,
+  "features_geradas": 577,
+  "features_com_abs_correlacao_maior_igual_0_30": 20,
+  "requisitos": {
+    "min_target_records": 20000,
+    "min_features": 25,
+    "min_influential_features": 15,
+    "correlation_threshold": 0.3
+  },
+  "atende_minimo_20k_registros": true,
+  "atende_minimo_25_variaveis": true,
+  "atende_minimo_15_influentes": true
+}

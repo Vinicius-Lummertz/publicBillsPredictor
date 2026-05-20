@@ -1,0 +1,17 @@
+{
+  "target": "valorHomologado",
+  "correlation_target": "raw",
+  "total_registros_modelagem": 1960,
+  "registros_target_nao_nulos": 1960,
+  "features_geradas": 416,
+  "features_com_abs_correlacao_maior_igual_0_30": 24,
+  "requisitos": {
+    "min_target_records": 20000,
+    "min_features": 25,
+    "min_influential_features": 15,
+    "correlation_threshold": 0.3
+  },
+  "atende_minimo_20k_registros": false,
+  "atende_minimo_25_variaveis": true,
+  "atende_minimo_15_influentes": true
+}

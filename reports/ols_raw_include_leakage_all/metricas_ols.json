@@ -1,0 +1,66 @@
+{
+  "target": "valorTotalVencedor",
+  "target_transform": "raw",
+  "include_leakage": true,
+  "sample_info": {
+    "population_size": 110675,
+    "confidence": 0.95,
+    "z": 1.96,
+    "margin_error": 0.05,
+    "population_proportion": 0.5,
+    "sample_size_infinite_population": 385,
+    "sample_size_finite_population": 383
+  },
+  "model_sample": "all",
+  "sample_used": 110675,
+  "train_rows": 88540,
+  "test_rows": 22135,
+  "ols_metrics_model_scale": {
+    "n_observacoes_treino": 88540,
+    "n_parametros": 21,
+    "rank_matriz": 21,
+    "graus_liberdade_modelo": 20,
+    "graus_liberdade_residuos": 88519,
+    "sse": 2661099162704551.5,
+    "mse_residuos": 30062463004.604115,
+    "r2": 0.9356867239276332,
+    "r2_ajustado": 0.9356721929735844,
+    "f_statistic": 64392.65589747931,
+    "f_p_value": 1.1102230246251565e-16,
+    "condition_number": 2974967.693383304
+  },
+  "train_metrics_raw_scale": {
+    "treino_mae": 19559.155113494377,
+    "treino_rmse": 137355.5234405079,
+    "treino_mape_pct": 6890.05387530678,
+    "treino_r2": 0.959628828814601
+  },
+  "test_metrics_raw_scale": {
+    "teste_mae": 21611.35593519654,
+    "teste_rmse": 167076.90708503162,
+    "teste_mape_pct": 7396.342524547079,
+    "teste_r2": 0.8867818116940768
+  },
+  "selected_features": [
+    "item__valorTotalReferencia",
+    "agg__itensVencedores__valorTotalReferencia__mean",
+    "agg__itensVencedores__valorTotalReferencia__min",
+    "agg__contratos__valor__min",
+    "agg__contratos__valor__mean",
+    "agg__contratos__valor__max",
+    "agg__itensVencedores__valorTotalReferencia__max",
+    "agg__contratos__valor__sum",
+    "agg__participantes__itensProposta__valorTotal__max",
+    "item__valorUnitarioVencedor",
+    "agg__participantes__itensProposta__valorTotal__mean",
+    "agg__itensVencedores__valorUnitarioVencedor__mean",
+    "agg__itensVencedores__valorUnitarioVencedor__min",
+    "item__valorUnitarioReferencia",
+    "agg__itensVencedores__valorUnitarioReferencia__mean",
+    "agg__itensVencedores__valorUnitarioVencedor__max",
+    "agg__itensVencedores__valorUnitarioReferencia__min",
+    "agg__itensVencedores__valorUnitarioReferencia__max",
+    "agg__participantes__itensProposta__valorUnitario__mean",
+    "agg__participantes__itensProposta__valorUnitario__max"
+  ]
+}

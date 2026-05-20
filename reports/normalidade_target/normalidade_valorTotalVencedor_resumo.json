@@ -1,0 +1,18 @@
+{
+  "target": "valorTotalVencedor",
+  "alpha": 0.05,
+  "sample_size": 2000,
+  "repeats": 10,
+  "total_registros_validos": 110675,
+  "melhor_transformacao_por_p_value_mediano": {
+    "serie": "log1p",
+    "shapiro_w_mediano": 0.9922099175719474,
+    "shapiro_p_value_mediano": 1.7688374187541776e-08,
+    "normalidade_aprovada": false,
+    "metodo": "Aplica log(1 + x). Reduz a cauda de valores monetarios muito altos.",
+    "parametros": {
+      "offset": 0.0
+    }
+  },
+  "observacao": "Como a base tem muitos registros, o SW Teste foi aplicado em amostras aleatorias repetidas. Isso segue a faixa recomendada em aula para o Shapiro-Wilk."
+}
